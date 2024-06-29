@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" description="Kavinkumar M">
+        <meta name="Description" description="This is a Rock-paper-scissors Game">
+        <style>
+            
+            .main-button{
+                padding: 50px;
+                border-radius: 700px;
+                cursor: pointer;
+            }
+        
+        </style>
+        <title>Rock-paper-scissors</title>
+
+    </head>
+    <body>
+        <h1>Rock Paper Scissors</h1>
+        <button class="js-main-button main-button" onclick="(playerMove('Rock'));">Rock</button>
+        <button class="js-main-button main-button" onclick="(playerMove('Paper'));">paper</button>
+        <button class="js-main-button main-button" onclick="(playerMove('Scissors'));">scissors</button>
+        <p class="js-result result"></p>
+        <p class="js-moves"></p>
+        <p class="js-score score"></p>
+        <button onclick="
+        Score.Wins = 0;
+        Score.Losses = 0;
+        Score.Ties = 0;
+        ">Reset</button>
+    
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
