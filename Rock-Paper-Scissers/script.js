@@ -49,10 +49,6 @@ function playerMove(PMove){
   document.querySelector('.js-score').innerHTML=`Wins:${Score.Wins}, Losses:${Score.Losses}, Ties:${Score.Ties}`;
 
 
-  
- 
-  
-
 }
 
 function computerPlay(){
